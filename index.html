@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Massage Studio Eirene</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header class="home-head">
+            <nav id="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo3.png" alt="Logo" class="logo-img">
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="#massage-type">Massages</a>
+                    <a href="#massage-type">Pricing</a>
+                    <a href="giftcards.html">Gift Cards</a>
+                    <a href="#about-us">About Us</a>
+                    <a href="#contacts">Contacts</a>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="img/icons8-facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="img/icons8-instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://twitter.com/?lang=uk" target="_blank">
+                        <img src="img/icons8-twitter-squared.svg" alt="Twitter">
+                    </a>
+                </div>
+            </nav>
+            <div class="under-menu">
+                <div class="under-menu-text">
+                    <span>Massage Studio</span>
+                    <h1>Eirene</h1>
+                    <img class="big-decor" src="img/detail.png" alt="Decor image">
+                    <p>Relax, take it easy</p>
+                </div>
+                <div class="buttons">
+                    <a href="#gallery">Learn more</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!--Massage Treatments & Prices section-->
+            <section class="massage-type-section" id="massage-type">
+                <div class="massage-type-header">
+                    <h2>Massage Treatments &Prices</h2>
+                    <img class="small-decor" src="img/detail.png" alt="Decor image">
+                </div>
+                <div class="massage-list">
+                    <article class="mass-type">
+                        <h3>Essential Massage</h3>
+                        <p>Unbrace your muscles with our Swedish massage. It relieves stress and improves blood circulation.</p>
+                        <p class="price">
+                            30 min | <span>50 €</span>
+                            <br>
+                            45 min | <span>70 €</span>
+                        </p>
+                    </article>
+                    <article class="mass-type">
+                        <h3>Deep Treatment</h3>
+                        <p>A full body massage. It includes a therapeutic scalp massage for total relaxation and the use of essential oils.</p>
+                        <p class="price">
+                            40 min | <span>60 €</span>
+                            <br>
+                            80 min | <span>99 €</span>
+                        </p>
+                    </article>
+                    <article class="mass-type">
+                        <h3>Sports Massage</h3>
+                        <p>Recommended before or after sports exercising to heal injuries, unbrace muscles and reduce knotted tissues.</p>
+                        <p class="price">
+                            30 min | <span>50 €</span>
+                            <br>
+                            60 min | <span>80 €</span>
+                        </p>
+                    </article>
+                    <article class="mass-type">
+                        <h3>Stone Massage</h3>
+                        <p>Used to help you relax and ease tense muscles and damaged soft tissues throughout your body.</p>
+                        <p class="price">
+                            30 min | <span>40 €</span>
+                            <br>
+                            45 min | <span>60 €</span>
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <!--About us section-->
+            <section class="about-us-section" id="about-us">
+                <div class="picture-about-us">
+                    <img src="img/about.jpg" alt="Collage of studio photos">
+                </div>
+                <div class="text-about-us">
+                    <h2 class="about-us">About us</h2>
+                    <img class="small-decor" src="img/detail.png" alt="Decor image">
+                    <br>
+                    <span>Licensed massage studio since 2015</span>
+                    <p>
+                        Eirene has been a professional massage studio since 2015!<br>
+                        We specialize in classic Swedish massage <br>for adults, sports and stone massage treatment.
+                    </p>
+                    <p>
+                        Each session starts off with a conversation to learn about<br>
+                        your goals and reasons for seeking massage treatment.<br>
+                        From there, your therapist will offer you<br>the best options and procedures, customized for you.
+                    </p>
+                </div>
+                
+            </section>
+            <!--Book massage section-->
+            <section class="book">
+                <div>
+                    <h2>Book a massage right now!</h2>
+                    <img class="small-decor" src="img/detail.png" alt="Decor image">
+                    <p>
+                        Leave your phone number and<br>
+                        our specialist will contact you<br>
+                        soon to schedule you at a<br>suitable time.
+                    </p>
+                    <form action="https://formspree.io/f/xjvpavgq" method="POST">
+                        <input type="text" name="user-name" placeholder="Name">
+                        <br>
+                        <input type="tel" name="user-phone" placeholder="Phone number*" required>
+                        <br>
+                        <div class="buttons">
+                            <button>Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <img class="order-img" src="img/order.jpg" alt="Woman is lying on table with flowers">
+                </div>
+            </section>
+            <!--Gallery section-->
+            <section class="gallery-section">
+                <div>
+                    <h2>Our Gallery</h2>
+                    <img class="small-decor" src="img/detail.png" alt="Decor image">
+                    <p>Take care of your body in a pleasant, relaxing atmosphere</p>
+                </div>
+                <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselGallery" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselGallery" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselGallery" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselGallery" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselGallery" data-bs-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/gal1.jpg" class="d-block w-100" alt="A woman is having an essential massage on her head">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gal2.jpg" class="d-block w-100" alt="A man is having a deep treatment massage">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gal3.jpeg" class="d-block w-100" alt="A woman is having a stone massage on her back">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gal4.jpg" class="d-block w-100" alt="A pregnant woman is having an essential massage on her sholders">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gal5.jpg" class="d-block w-100" alt="A man and a woman are having a deep treatment massage">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselGallery" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselGallery" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </section>
+            <!--Massage is gift section-->
+            <section class="gift-section">
+                <div class="gift-section-text">
+                    <h2>Massage is a great gift!</h2>
+                    <img class="small-decor" src="img/detail.png" alt="Decor image">
+                    <p>
+                        Order a certificate for Deep Treatment or<br>Essential Massage in our studio.
+                    </p>
+                    <div class="buttons">
+                    <a href="giftcards.html">Choose certificate</a>
+                    </div>
+                </div>
+                <br>
+                <div class="gift-section-img">
+                    <img class="gift-image" src="img/gift.jfif" alt="Yellow gift box">
+                </div>
+            </section>
+            <!--Schedule massage section and map-->
+            <section class="schedule-massage-section">
+                <div>
+                    <h2>Schedule a massage session now!</h2>
+                    <img class="small-decor" src="img/detail.png" alt="Decor image">
+                    <form action="https://formspree.io/f/xjvpavgq" method="POST">
+                        <input type="text" name="user-name" placeholder="Name*" required>
+                        <br>
+                        <input type="tel" name="user-phone" placeholder="Phone number*" required>
+                        <br>
+                        <input type="email" name="user-email" placeholder="Email*" required>
+                        <br>
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                        <br>
+                        <div class="buttons">
+                            <button>Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2483.2731644107826!2d-0.1307!3d51.5082043!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce2689a4ab%3A0x3ea198059dddcb1!2zNiBUcmFmYWxnYXIgU3F1YXJlLCBXZXN0IEVuZCwgTG9uZG9uIFdDMk4gNU5KLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3RltGP!5e0!3m2!1suk!2sua!4v1608740036166!5m2!1suk!2sua" width="550" height="450"  frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </section>
+        </main>
+        <!--Footer -->
+        <footer>
+            <div class="footer" id="contacts">
+                <div class="logo">
+                   <img src="img/logo3.png" alt="Logo" class="logo-img">
+                </div>
+                <div class="call">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday Closed</li>
+                        <li>Tuesday 9:00 - 20:00</li>
+                        <li>Wednesday 9:00 - 20:00</li>
+                        <li>Thursday 9:00 - 20:00</li>
+                        <li>Friday 9:00 - 20:00</li>
+                        <li>Saturday 9:00 - 20:00</li>
+                        <li>Sunday 9:00 - 14:00</li>
+                    </ul>
+                </div>
+                <div class="call">
+                    <h3>Call Us</h3>
+                    <p>+4 (400) 111 00 00</p>
+                </div>
+                <div class="call">
+                    <h3>Address</h3>
+                    <p>Trafalgar sq.6,London</p>
+                </div>
+            </div>
+            <div class="all-rights">
+                <p>Created by UARepetsMa</p>
+                <p>2020 All rights Reserved</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

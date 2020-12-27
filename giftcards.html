@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Massage Studio Eirene</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/giftcards.css">
+    </head>
+<body>
+    <header class="home-head-gifts">
+        <nav id="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo3.png" alt="Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="menu">
+                <a href="index.html#massage-type">Massages</a>
+                <a href="index.html#massage-type">Pricing</a>
+                <a href="giftcards.html">Gift Cards</a>
+                <a href="index.html#about-us">About Us</a>
+                <a href="#contacts">Contacts</a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/icons8-facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img/icons8-instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://twitter.com/?lang=uk" target="_blank">
+                    <img src="img/icons8-twitter-squared.svg" alt="Twitter">
+                </a>
+            </div>
+        </nav>
+    </header>
+        <section class="counter-sales">
+            <h2>New Year Sales!</h2>
+            <div id="countdown">
+                <div class="day-hour">
+                    <h2 id="days"></h2>
+                    <p>Days</p>
+                </div>
+                <div class="day-hour">
+                    <h2 id="hours"></h2>
+                    <p>Hours</p>
+                </div>
+                <div class="min-sec">
+                    <h2 id="minutes"></h2>
+                    <p>Minutes</p>
+                </div>
+                <div class="min-sec">
+                    <h2 id="seconds"></h2>
+                    <p>Seconds</p>
+                </div>
+            </div>
+            <p class="sales-percent">20% off Gift Cards</p><br>
+            <div class="buttons">
+                <a href="#order-card">Order now</a>
+            </div>
+        </section>
+        <section class="gift-cards-body">
+            <div class="gift-header">
+                <h2>Our Gift Cards</h2>
+                <img src="img/detail.png" alt="Detail" class="small-decor">
+                <p>Order certificate for any type of massage in our studio.</p>
+            </div>
+            <section class="essential">
+                <div class="gift-section-img">
+                    <img class="gift-image" src="img/essential.jpg" alt="Essential massage on back">
+                </div>
+                <div class="gift-section-text">
+                    <div>
+                        <p>Massage</p>
+                        <p>Essential massage</p>
+                    </div>
+                    <div>               
+                        <p>For</p>
+                        <p>Adults</p>
+                    </div>
+                    <p>This classic Swedish massage allows a person to unbrace the 
+                        muscles. It relieves stress and improves blood circulation. The
+                    patient feel better, calm and fresh from the very first session.</p>
+                    <p class="price">
+                        30 min | <span>50 €</span>
+                        <br>
+                        45 min | <span>70 €</span>
+                    </p>
+                    <div class="buttons buttons-buy">
+                        <a href="#order-card">Buy a gift card</a>
+                    </div>
+                </div>
+            </section>
+            <section class="deep">
+                <div class="gift-section-img">
+                    <img class="gift-image" src="img/deep.jpg" alt="Deep massage on back">
+                </div>
+                <div class="gift-section-text">
+                    <div>
+                        <p>Massage</p>
+                        <p>Essential massage</p>
+                    </div>
+                    <div>               
+                        <p>For</p>
+                        <p>Adults</p>
+                    </div>
+                    <p>It's a full body massage. It includes a therapeutic scalp<br>
+                        massage for total relaxation and the use of essential oils and<br>
+                        aromatherapy. Perfect gift for every woman or man!</p>
+                    <p class="price">
+                        40 min | <span>60 €</span>
+                        <br>
+                        80 min | <span>99 €</span>
+                    </p>
+                    <div class="buttons buttons-buy">
+                        <a href="#order-card">Buy a gift card</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="schedule-massage-section" id="order-card">
+            <div>
+                <h2>Order a gift card!</h2>
+                <img class="small-decor" src="img/detail.png" alt="Decor image">
+                <p>If you haven't found a desired certificate,<br> we can create an individual gift card.</p>
+                <form action="https://formspree.io/f/xjvpavgq" method="POST">
+                    <input type="text" name="user-name" placeholder="Name*" required>
+                    <br>
+                    <input type="tel" name="user-phone" placeholder="Phone number*" required>
+                    <br>
+                    <input type="email" name="user-email" placeholder="Email*" required>
+                    <br>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <br>
+                    <div class="buttons">
+                        <button>Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="gift-section-img">
+                <img class="gift-image" src="img/gift_page.jpg" alt="Deep massage on back">
+            </div>
+        </section>
+        <!--Footer -->
+        <footer>
+            <div class="footer" id="contacts">
+                <div class="logo">
+                   <img src="img/logo3.png" alt="Logo" class="logo-img">
+                </div>
+                <div class="call">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday Closed</li>
+                        <li>Tuesday 9:00 - 20:00</li>
+                        <li>Wednesday 9:00 - 20:00</li>
+                        <li>Thursday 9:00 - 20:00</li>
+                        <li>Friday 9:00 - 20:00</li>
+                        <li>Saturday 9:00 - 20:00</li>
+                        <li>Sunday 9:00 - 14:00</li>
+                    </ul>
+                </div>
+                <div class="call">
+                    <h3>Call Us</h3>
+                    <p>+4 (400) 111 00 00</p>
+                </div>
+                <div class="call">
+                    <h3>Address</h3>
+                    <p>Trafalgar sq.6,London</p>
+                </div>
+            </div>
+            <div class="all-rights">
+                <p>Created by UARepetsMa</p>
+                <p>All rights Reserved. 2020</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="js/giftcards.js"></script>
+</body>
+</html>

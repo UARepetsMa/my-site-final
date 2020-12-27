@@ -1,0 +1,428 @@
+section, article, header, a, div, nav, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+:root {
+    font-family: 'Playfair Display',serif;
+    max-width: 1080px;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+.home-head {
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;     
+}
+
+.home-head nav, .home-head-gifts nav {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    min-width: 100px;
+    max-width: 150px;
+    padding-left: 30px;
+}
+
+.logo-img{
+    cursor: pointer;
+    width: 100%;
+}
+
+.under-menu {
+    text-align: center;
+}
+
+.under-menu span{
+    font-weight: bold;
+    font-size: 50px;
+    color: #ef4a24;
+    padding: 15px;
+}
+
+.under-menu p {
+    font-size: 25px;
+    font-family: "Open Sans",sans-serif;
+    font-style: italic;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.social {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.social img:hover {
+    background-color: #fcf5e8;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid transparent;
+    font-family: "Open Sans",sans-serif;
+}
+
+.menu a:hover {
+    color: #ef4a24;
+}
+
+h1 {
+    font-family: 'Playfair Display',serif;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Playfair Display',serif;
+    color: #252b51;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.under-menu-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.big-decor {
+    max-width: 60%;
+}
+
+@media (min-width: 700px) {
+
+    header nav {
+        display: flex;
+    }
+
+    header nav .menu {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    header nav .social {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+  
+} 
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ef4a24;
+    background-size: auto;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.buttons a:hover {
+    background-color: #252b51;
+}
+
+.massage-type-section {
+    size: 700px; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+} 
+
+.massage-type-header {
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #434343;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+}
+
+.massage-list p {
+    font-family: "Open Sans",sans-serif;
+    color: #707070;
+    display: block;
+    text-align: center;
+}
+
+.massage-list span {
+    color: #ef4a24;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.mass-type {
+    border: 1px solid transparent;
+    margin: 10px;
+    padding: 5px;
+}
+
+@media (min-width: 600px) {
+    .massage-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 800px) {
+    .massage-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 980px) {
+    .massage-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.about-us-section {
+    background-color: #fcf5e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.about-us-section span {
+    color: #434343;
+    font-style: italic;
+}
+.text-about-us {
+    color: #707070;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.picture-about-us {
+    width: 50%;
+    display: block;
+}
+
+.picture-about-us img {
+    width: 100%;
+    display: block;
+    padding-left: 10px;
+}
+
+.small-decor {
+    max-width: 130px;
+    border: none;
+    padding: none;
+}
+
+.buttons button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ef4a24;
+    background-size: auto;
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+    width: auto;
+}
+
+.buttons button:hover {
+    background-color: #252b51;
+}
+
+.book {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.book button {
+    width: auto;
+}
+
+.book form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.book form input {
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px 3px;
+    border: 1px solid transparent;
+    background-color: rgb(218, 214, 214);
+    box-sizing: border-box;
+}
+
+.book p {
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #434343;
+}
+
+.gallery-section {
+    background-color: #fcf5e8;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #434343;
+    text-align: center;
+}
+
+#carouselGallery {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.order-img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.order-img:hover {
+    transform: scaleX(-1);
+}
+
+.gift-section {
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #434343;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.gift-section p {
+    padding-bottom: 30px;
+}
+
+.gift-section-img {
+    width: 50%;
+}
+
+.gift-image {
+    width: 100%;
+    display: block;
+}
+
+.schedule-massage-section {
+    background-color: #fcf5e8;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.map {
+    padding-right: 20px;
+}
+
+.schedule-massage-section form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.schedule-massage-section form input {
+    border-radius: 40px;
+    padding: 10px;
+    margin: 5px 3px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.schedule-massage-section form textarea {
+    border-radius: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px 3px;
+    border: 1px solid transparent;
+    background-color: white;
+    width: auto;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #553316;
+    font-family: "Open Sans",sans-serif;
+}
+
+@media (min-width: 700px) {
+      
+    .gift-section, .about-us-section, .book, .schedule-massage-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.footer {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.footer h3 {
+    color:#252b51;
+}
+.all-rights {
+    display: flex;
+    justify-content: space-between;
+}
