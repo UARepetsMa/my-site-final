@@ -274,6 +274,7 @@ h3 {
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -282,12 +283,16 @@ h3 {
     width: auto;
 }
 
-.book form {
+.book-form-div form {
     display: flex;
     flex-direction: column;
     padding: 0px 10px;
+    max-width: 100%;
 }
 
+.book-form-div {
+    max-width: 50%;
+}
 .book form input {
     border-radius: 40px;
     padding: 10px;
@@ -340,6 +345,7 @@ h3 {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    min-height: 550px;
 }
 
 .gift-section p {
