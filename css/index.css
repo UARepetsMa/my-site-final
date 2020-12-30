@@ -4,6 +4,7 @@ section, article, header, a, div, nav, h1, h2 {
     border: 0;
     vertical-align: baseline;
 }
+
 :root {
     font-family: 'Playfair Display',serif;
     max-width: 1080px;
@@ -15,7 +16,7 @@ section, article, header, a, div, nav, h1, h2 {
     background-image: url('../img/header.jpg');
     background-size: cover;
     background-position: center;
-    height: 700px;     
+    height: 700px;
 }
 
 .home-head nav, .home-head-gifts nav {
@@ -32,7 +33,7 @@ section, article, header, a, div, nav, h1, h2 {
     padding-left: 30px;
 }
 
-.logo-img{
+.logo-img {
     cursor: pointer;
     width: 100%;
 }
@@ -41,7 +42,7 @@ section, article, header, a, div, nav, h1, h2 {
     text-align: center;
 }
 
-.under-menu span{
+.under-menu span {
     font-weight: bold;
     font-size: 50px;
     color: #ef4a24;
@@ -111,7 +112,6 @@ h2 {
 }
 
 @media (min-width: 700px) {
-
     header nav {
         display: flex;
     }
@@ -123,13 +123,13 @@ h2 {
         align-items: center;
         flex-direction: row;
     }
+
     header nav .social {
         display: flex;
         align-items: center;
         flex-direction: row;
     }
-  
-} 
+}
 
 .buttons a {
     text-decoration: none;
@@ -150,10 +150,10 @@ h2 {
 }
 
 .massage-type-section {
-    size: 700px; 
+    size: 700px;
     padding-top: 70px;
     padding-bottom: 70px;
-} 
+}
 
 .massage-type-header {
     text-align: center;
@@ -215,12 +215,13 @@ h3 {
     align-items: center;
     padding-top: 70px;
     padding-bottom: 70px;
-
 }
+
 .about-us-section span {
     color: #434343;
     font-style: italic;
 }
+
 .text-about-us {
     color: #707070;
     font-family: "Open Sans",sans-serif;
@@ -363,11 +364,15 @@ h3 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+}
+
+.map iframe {
+    max-width: 100%;
 }
 
 .map {
-    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 50%;
 }
 
 .schedule-massage-section form {
@@ -376,6 +381,10 @@ h3 {
     padding: 0px 10px;
     max-width: 100%;
     margin: 0;
+}
+
+.schedule-form {
+    max-width: 50%;
 }
 
 .schedule-massage-section form input {
@@ -405,8 +414,15 @@ h3 {
 }
 
 @media (min-width: 700px) {
-      
-    .gift-section, .about-us-section, .book, .schedule-massage-section {
+    .gift-section, .about-us-section, .book {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 900px) {
+    .schedule-massage-section {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -416,13 +432,47 @@ h3 {
 .footer {
     display: flex;
     align-items: top;
+    text-align: center;
+    flex-direction: column;
     justify-content: space-around;
     padding-top: 15px;
 }
+
 .footer h3 {
-    color:#252b51;
+    color: #252b51;
 }
+
 .all-rights {
     display: flex;
     justify-content: space-between;
+}
+
+.open-h {
+    min-width: 20%;
+}
+
+.call ul {
+    align-content: center;
+    padding: 0;
+}
+
+.call li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 700px) {
+    .footer {
+        display: flex;
+        align-items: top;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .call li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
 }

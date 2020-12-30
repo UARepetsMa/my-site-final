@@ -6,8 +6,8 @@
 }
 
 #navbar {
-    background-color:#252b51;
-  }
+    background-color: #252b51;
+}
 
 #navbar div a:hover {
     color: #ef4a24;
@@ -20,43 +20,83 @@
 .counter-sales {
     background-color: #fcf5e8;
     text-align: center;
-    min-height: 450px; 
+    min-height: 450px;
     padding: 30px 0;
-}
-
-#countdown {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 #countdown div {
     border: 1px solid #ef4a24;
-    border-radius: 5px;  
+    border-radius: 5px;
+    max-width: 30%;
 }
 
-#countdown div p {
+#countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-name {
     box-sizing: border-box;
     color: #707070;
+    font-size: 15px;
+}
+
+.time-part {
+    color: #252b51;
+    font-weight: bold;
     font-size: 25px;
 }
 
 .day-hour {
-    padding: 0px 57px;
+    padding: 0px 32px;
+    margin: 3px;
+}
+
+.day {
+    padding: 0px 36px;
 }
 
 .min-sec {
-    padding: 0px 45px;
+    padding: 0px 24px;
+    margin: 3px;
 }
+
+@media (min-width: 700px) {
+    #countdown {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .time-name {
+        box-sizing: border-box;
+        font-size: 25px;
+    }
+
+    .time-part {
+        font-size: 35px;
+    }
+
+    .day-hour {
+        padding: 0px 48px;
+    }
+
+    .min-sec {
+        padding: 0px 34px;
+    }
+}
+
 .sales-percent {
-    color:#252b51;
+    color: #252b51;
     font-family: "Open Sans",sans-serif;
     font-size: 40px;
     font-style: italic;
     padding: 20px;
 }
+
 .gift-cards-body {
-    background-color:white;
+    background-color: white;
     align-content: center;
 }
 
@@ -101,26 +141,21 @@
     width: 50%;
     display: block;
 }
+
 .buttons-buy a {
     text-align: center;
     padding: 5px;
 }
 
 @media (min-width: 700px) {
-
-    .essential, .deep  {
+    .essential, .deep {
         display: flex;
         flex: 1;
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
     }
-    /* #countdown {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }*/
-}  
+}
 
 .schedule-massage-section p {
     color: #434343;
@@ -136,5 +171,5 @@
 
 .footer h3 {
     font-family: 'Playfair Display',serif;
-    color:#252b51;
+    color: #252b51;
 }
